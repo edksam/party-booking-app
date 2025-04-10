@@ -5,7 +5,7 @@ import WelcomePage from './pages/WelcomePage';
 // import ConfirmationPage from './pages/ConfirmationPage';
 // import BookingDetailPage from './pages/BookingDetailPage';
 // import Header from './components/Header';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
             <Route path="/booking/:id" element={<BookingDetailPage />} /> */}
           </Routes>
         </div>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </Router>
   );
