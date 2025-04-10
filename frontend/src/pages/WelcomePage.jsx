@@ -9,7 +9,7 @@ function WelcomePage() {
       </p>
       <Link
         to="/book"
-        className="inline-block bg-yellow-600 text-white px-6 py-3 rounded-xl text-lg font-semibold hover:bg-yellow-800 transition"
+        className="inline-block bg-yellow-600 text-white px-6 py-3 rounded-xl text-lg font-semibold hover:bg-yellow-700 transition"
       >
         Book Your Spot Now
       </Link>

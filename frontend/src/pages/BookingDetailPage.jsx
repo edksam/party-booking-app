@@ -20,13 +20,13 @@ function BookingDetailPage() {
   }
 
   return (
-    <div className="max-w-xl mx-auto mt-10 p-4 border rounded-xl shadow text-center">
+    <div className="max-w-xl mx-auto mt-10 p-4 border rounded-xl shadow text-center text-white">
       <h1 className="text-2xl font-bold mb-4">Booking Detail</h1>
       <BookingDetails booking={booking} />
       <div className="mt-6">
         <Link
           to="/confirmation"
-          className="inline-block bg-yellow-600 text-white px-4 py-2 rounded-xl text-md font-semibold hover:bg-purple-700 transition"
+          className="inline-block bg-yellow-600 text-white px-4 py-2 rounded-xl text-md font-semibold hover:bg-yellow-700 transition"
         >
           Back to Confirmation
         </Link>
