@@ -27,13 +27,13 @@ function ConfirmationPage() {
     : bookings[bookings.length - 1];
 
   return (
-    <div className="max-w-xl mx-auto mt-10 p-4 border rounded-xl shadow text-center">
+    <div className="max-w-xl mx-auto mt-10 p-4 border rounded-xl shadow text-center text-white">
       <h1 className="text-2xl font-bold mb-4">Booking Confirmation</h1>
       <BookingDetails booking={current} />
 
       <div className="mt-10 text-left">
         <h2 className="text-xl font-semibold mb-2">Other Booked Employees:</h2>
-        <ul className="list-disc pl-5 text-left text-gray-700">
+        <ul className="list-disc pl-5 text-left text-white">
           {bookings.map((entry) => (
             <li key={entry.id}>
               <Link to={`/booking/${entry.id}`} className="text-yellow-75 hover:underline">
@@ -47,7 +47,7 @@ function ConfirmationPage() {
       <div className="mt-6">
         <Link
           to="/"
-          className="inline-block bg-yellow-100 text-white px-4 py-2 rounded-xl text-md font-semibold hover:bg-purple-700 transition"
+          className="inline-block bg-yellow-500 text-white px-4 py-2 rounded-xl text-md font-semibold hover:bg-yellow-700 transition"
         >
           Back to Home
         </Link>

@@ -12,7 +12,7 @@ function BookingDetailPage() {
     return (
       <div className="max-w-xl mx-auto mt-10 p-4 text-center">
         <h1 className="text-2xl font-bold mb-4">Booking Not Found</h1>
-        <Link to="/confirmation" className="text-purple-600 hover:underline">
+        <Link to="/confirmation" className="text-yellow-500 hover:underline">
           Back to Confirmation
         </Link>
       </div>
@@ -26,7 +26,7 @@ function BookingDetailPage() {
       <div className="mt-6">
         <Link
           to="/confirmation"
-          className="inline-block bg-purple-600 text-white px-4 py-2 rounded-xl text-md font-semibold hover:bg-purple-700 transition"
+          className="inline-block bg-yellow-600 text-white px-4 py-2 rounded-xl text-md font-semibold hover:bg-purple-700 transition"
         >
           Back to Confirmation
         </Link>
