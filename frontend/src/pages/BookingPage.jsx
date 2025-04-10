@@ -5,7 +5,7 @@ function BookingPage() {
   const [formData, setFormData] = useState({
     employeeName: '',
     department: '',
-    partyDate: '',
+    dietary_needs: '',
   });
   const navigate = useNavigate();
 

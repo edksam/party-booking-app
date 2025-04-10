@@ -25,10 +25,10 @@ function BookingDetailPage() {
       <BookingDetails booking={booking} />
       <div className="mt-6">
         <Link
-          to="/confirmation"
+          to="/"
           className="inline-block bg-yellow-600 text-white px-4 py-2 rounded-xl text-md font-semibold hover:bg-yellow-700 transition"
         >
-          Back to Confirmation
+          Back to Home
         </Link>
       </div>
     </div>
