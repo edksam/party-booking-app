@@ -37,7 +37,7 @@ function ConfirmationPage() {
           {bookings.map((entry) => (
             <li key={entry.id}>
               <Link to={`/booking/${entry.id}`} className="text-purple-700 hover:underline">
-                {entry.employeeName} ({entry.department}) - {entry.partyDate}
+                {entry.employeeName} ({entry.department})
               </Link>
             </li>
           ))}
