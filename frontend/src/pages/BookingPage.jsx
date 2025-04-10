@@ -23,7 +23,7 @@ function BookingPage() {
 
   return (
     <div className="max-w-md mx-auto p-6 mt-10 border rounded-xl shadow">
-      <h1 className="text-2xl font-bold mb-6 text-center text-purple-700">Reserve Your Party Spot</h1>
+      <h1 className="text-2xl font-bold mb-6 text-center text-yellow-200">Reserve Your Party Spot</h1>
       <form onSubmit={handleSubmit} className="space-y-4">
         <input
           type="text"
@@ -62,7 +62,7 @@ function BookingPage() {
         /> */}
         <button
           type="submit"
-          className="w-full bg-purple-600 text-white py-2 rounded hover:bg-purple-700 transition"
+          className="w-full bg-yellow-600 text-white py-2 rounded hover:bg-yellow-700 transition"
         >
           Confirm Reservation
         </button>

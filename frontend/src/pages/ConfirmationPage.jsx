@@ -36,8 +36,8 @@ function ConfirmationPage() {
         <ul className="list-disc pl-5 text-left text-gray-700">
           {bookings.map((entry) => (
             <li key={entry.id}>
-              <Link to={`/booking/${entry.id}`} className="text-purple-700 hover:underline">
-                {entry.employeeName} ({entry.department})
+              <Link to={`/booking/${entry.id}`} className="text-yellow-75 hover:underline">
+                {entry.employeeName} ({entry.department}) - {entry.dietary_needs}
               </Link>
             </li>
           ))}
@@ -47,7 +47,7 @@ function ConfirmationPage() {
       <div className="mt-6">
         <Link
           to="/"
-          className="inline-block bg-purple-600 text-white px-4 py-2 rounded-xl text-md font-semibold hover:bg-purple-700 transition"
+          className="inline-block bg-yellow-100 text-white px-4 py-2 rounded-xl text-md font-semibold hover:bg-purple-700 transition"
         >
           Back to Home
         </Link>
