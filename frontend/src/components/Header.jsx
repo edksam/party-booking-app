@@ -7,8 +7,7 @@ function Header() {
         <h1 className="text-xl font-bold">🎉 WEX Party Booker</h1>
         <nav className="space-x-4">
           <Link to="/" className="hover:underline">Home</Link>
-          <Link to="/book" className="hover:underline">Book</Link>
-          <Link to="/confirmation" className="hover:underline">Confirmation</Link>
+          <Link to="/book" className="hover:underline">Reserve</Link>
         </nav>
       </div>
     </header>

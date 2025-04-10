@@ -23,7 +23,7 @@ function BookingPage() {
 
   return (
     <div className="max-w-md mx-auto p-6 mt-10 border rounded-xl shadow">
-      <h1 className="text-2xl font-bold mb-6 text-center text-purple-700">Book Your Party Spot</h1>
+      <h1 className="text-2xl font-bold mb-6 text-center text-purple-700">Reserve Your Party Spot</h1>
       <form onSubmit={handleSubmit} className="space-y-4">
         <input
           type="text"
