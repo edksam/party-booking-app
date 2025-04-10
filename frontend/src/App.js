@@ -4,14 +4,14 @@ import WelcomePage from './pages/WelcomePage';
 // import BookingPage from './pages/BookingPage';
 // import ConfirmationPage from './pages/ConfirmationPage';
 // import BookingDetailPage from './pages/BookingDetailPage';
-// import Header from './components/Header';
+import Header from './components/Header';
 import Footer from './components/Footer';
 
 function App() {
   return (
     <Router>
       <div className="flex flex-col min-h-screen">
-        {/* <Header /> */}
+        <Header />
         <div className="flex-grow">
           <Routes>
             <Route path="/" element={<WelcomePage />} />
