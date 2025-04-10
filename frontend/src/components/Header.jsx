@@ -8,6 +8,7 @@ function Header() {
         <nav className="space-x-4">
           <Link to="/" className="hover:underline">Home</Link>
           <Link to="/book" className="hover:underline">Reserve</Link>
+          <text className="text-s">*Made by Peter</text>
         </nav>
       </div>
     </header>
