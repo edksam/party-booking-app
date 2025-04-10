@@ -38,13 +38,14 @@ function ConfirmationPage() {
             <li key={entry.id}>
               <Link to={`/booking/${entry.id}`} className="text-yellow-75 hover:underline">
                 {entry.employeeName} ({entry.department}) - {entry.dietary_needs}
+                {localStorage.clear()}
               </Link>
             </li>
           ))}
         </ul>
       </div>
 
-      <div className="mt-6">
+      <div className="mt-6>
         <Link
           to="/"
           className="inline-block bg-yellow-500 text-white px-4 py-2 rounded-xl text-md font-semibold hover:bg-yellow-700 transition"
