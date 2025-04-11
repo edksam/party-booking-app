@@ -5,7 +5,7 @@ function WelcomePage() {
     <div className="max-w-2xl mx-auto text-center py-20 px-4">
       <h1 className="text-4xl font-bold mb-6 text-yellow-50">🎉 Welcome to the Employee Christmas Party Booking App! 📯</h1>
       <p className="text-lg text-yellow-100 mb-8">
-        Join us in celebrating our amazing team! Book your spot at the annual employee party filled with fun, food, and festivities.
+        Join us in celebrating our amazing team! Book your spot at the annual employee party filled with fun, food, with the theme of casino where we're gambling for charity (Chips On Entry For Free!).
       </p>
       <Link
         to="/book"

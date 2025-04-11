@@ -28,11 +28,11 @@ function ConfirmationPage() {
 
   return (
     <div className="max-w-xl mx-auto mt-10 p-4 border rounded-xl shadow text-center text-white">
-      <h1 className="text-2xl font-bold mb-4">Booking Confirmation</h1>
+      <h1 className="text-2xl font-bold mb-4 underline"> Booking Confirmation </h1>
       <BookingDetails booking={current} />
 
       <div className="mt-10 text-left">
-        <h2 className="text-xl font-semibold mb-2">Other Booked Employees:</h2>
+        <h2 className="text-xl font-semibold mb-2 underline"> Other Booked Employees:</h2>
         <ul className="list-disc pl-5 text-left text-white">
           {bookings.map((entry) => (
             <li key={entry.id}>
