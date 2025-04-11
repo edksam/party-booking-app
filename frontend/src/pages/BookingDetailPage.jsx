@@ -12,8 +12,8 @@ function BookingDetailPage() {
     return (
       <div className="max-w-xl mx-auto mt-10 p-4 text-center">
         <h1 className="text-2xl font-bold mb-4">Booking Not Found</h1>
-        <Link to="/confirmation" className="text-yellow-500 hover:underline">
-          Back to Confirmation
+        <Link to="/" className="text-yellow-500 hover:underline">
+          Back to Home
         </Link>
       </div>
     );
@@ -28,7 +28,7 @@ function BookingDetailPage() {
           to="/"
           className="inline-block bg-yellow-600 text-white px-4 py-2 rounded-xl text-md font-semibold hover:bg-yellow-700 transition"
         >
-          Back to Home
+          Back to Home *It isnt working properly but it can :(
         </Link>
       </div>
     </div>

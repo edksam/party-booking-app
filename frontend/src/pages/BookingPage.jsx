@@ -45,6 +45,15 @@ function BookingPage() {
         />
         <input
           type="text"
+          name="email"
+          placeholder="Employee Email"
+          value={formData.email}
+          onChange={handleChange}
+          required
+          className="w-full p-2 border rounded"
+        />
+        <input
+          type="text"
           name="dietary_needs"
           placeholder="Dietary needs"
           value={formData.dietary_needs}
@@ -52,14 +61,6 @@ function BookingPage() {
           required
           className="w-full p-2 border rounded"
         />
-        {/* <input
-          type="date"
-          name="partyDate"
-          value={formData.partyDate}
-          onChange={handleChange}
-          required
-          className="w-full p-2 border rounded"
-        /> */}
         <button
           type="submit"
           className="w-full bg-yellow-600 text-white py-2 rounded hover:bg-yellow-700 transition"
@@ -70,5 +71,7 @@ function BookingPage() {
     </div>
   );
 }
+
+
 
 export default BookingPage;
