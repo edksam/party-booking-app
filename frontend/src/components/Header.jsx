@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-
 function Header() {
   return (
     <header className="bg-yellow-500 text-white py-4 px-6 shadow">

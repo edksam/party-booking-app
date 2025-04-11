@@ -28,7 +28,7 @@ function BookingDetailPage() {
           to="/"
           className="inline-block bg-yellow-600 text-white px-4 py-2 rounded-xl text-md font-semibold hover:bg-yellow-700 transition"
         >
-          Back to Home *It isnt working properly but it can :(
+          Back to Home
         </Link>
       </div>
     </div>

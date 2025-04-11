@@ -58,7 +58,7 @@ function BookingPage() {
           placeholder="Dietary needs"
           value={formData.dietary_needs}
           onChange={handleChange}
-          required
+          
           className="w-full p-2 border rounded"
         />
         <button
