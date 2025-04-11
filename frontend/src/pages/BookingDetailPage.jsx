@@ -1,4 +1,3 @@
-// pages/BookingDetailPage.jsx
 import { useParams, Link } from 'react-router-dom';
 import BookingDetails from '../components/BookingDetails';
 
@@ -12,7 +11,7 @@ function BookingDetailPage() {
     return (
       <div className="max-w-xl mx-auto mt-10 p-4 text-center">
         <h1 className="text-2xl font-bold mb-4">Booking Not Found</h1>
-        <Link to="/confirmation" className="text-yellow-500 hover:underline">
+        <Link to="/confirmation" className="text-purple-600 hover:underline">
           Back to Confirmation
         </Link>
       </div>
@@ -20,15 +19,15 @@ function BookingDetailPage() {
   }
 
   return (
-    <div className="max-w-xl mx-auto mt-10 p-4 border rounded-xl shadow text-center text-white">
+    <div className="max-w-xl mx-auto mt-10 p-4 border rounded-xl shadow text-center">
       <h1 className="text-2xl font-bold mb-4">Booking Detail</h1>
       <BookingDetails booking={booking} />
       <div className="mt-6">
         <Link
-          to="/"
-          className="inline-block bg-yellow-600 text-white px-4 py-2 rounded-xl text-md font-semibold hover:bg-yellow-700 transition"
+          to="/confirmation"
+          className="inline-block bg-purple-600 text-white px-4 py-2 rounded-xl text-md font-semibold hover:bg-purple-700 transition"
         >
-          Back to Home
+          Back to Confirmation
         </Link>
       </div>
     </div>

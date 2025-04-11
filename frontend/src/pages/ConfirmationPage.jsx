@@ -1,7 +1,6 @@
-// Update in pages/ConfirmationPage.jsx
 import { useLocation, Link } from 'react-router-dom';
-import BookingDetails from '../components/BookingDetails';
 import { useEffect, useState } from 'react';
+import BookingDetails from '../components/BookingDetails';
 
 function ConfirmationPage() {
   const location = useLocation();
@@ -27,28 +26,27 @@ function ConfirmationPage() {
     : bookings[bookings.length - 1];
 
   return (
-    <div className="max-w-xl mx-auto mt-10 p-4 border rounded-xl shadow text-center text-white">
+    <div className="max-w-xl mx-auto mt-10 p-4 border rounded-xl shadow text-center">
       <h1 className="text-2xl font-bold mb-4">Booking Confirmation</h1>
       <BookingDetails booking={current} />
 
       <div className="mt-10 text-left">
         <h2 className="text-xl font-semibold mb-2">Other Booked Employees:</h2>
-        <ul className="list-disc pl-5 text-left text-white">
+        <ul className="list-disc pl-5 text-left text-gray-700">
           {bookings.map((entry) => (
             <li key={entry.id}>
-              <Link to={`/booking/${entry.id}`} className="text-yellow-75 hover:underline">
-                {entry.employeeName} ({entry.department}) - {entry.dietary_needs}
-                {localStorage.clear()}
+              <Link to={`/booking/${entry.id}`} className="text-purple-700 hover:underline">
+                {entry.employeeName} ({entry.department}) - {entry.partyDate}
               </Link>
             </li>
           ))}
         </ul>
       </div>
 
-      <div className="mt-6>
+      <div className="mt-6">
         <Link
           to="/"
-          className="inline-block bg-yellow-500 text-white px-4 py-2 rounded-xl text-md font-semibold hover:bg-yellow-700 transition"
+          className="inline-block bg-purple-600 text-white px-4 py-2 rounded-xl text-md font-semibold hover:bg-purple-700 transition"
         >
           Back to Home
         </Link>
