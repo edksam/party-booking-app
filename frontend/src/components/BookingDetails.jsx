@@ -5,7 +5,7 @@ function BookingDetails({ booking }) {
       <p><strong>Department:</strong> {booking.department}</p>
       <p><strong>Employee Email:</strong> {booking.email}</p>
       <p><strong>Dietary needs:</strong> {booking.dietary_needs}</p>
-      <p><strong>Date: </strong>11/12/2025.</p>
+      <p><strong>Date: </strong>11/12/2025. (6pm)</p>
       <p><strong>Address: </strong>International centre 🍾 (TF3 4JH).</p>
       <p><strong>Extra info: </strong><s-text>*Extra chips are available for purchase after you've used your free entry chips.</s-text></p>
     </div>
